@@ -44,11 +44,9 @@ header .texto h2 {
   font-family: 'Caveat', cursive;
 
 }
+/* FIN HEADER */
 
-
-/* INICIO HOME */
-
-/* NAV */
+/* INICIO NAV */
 
 
 nav.holder {
@@ -129,7 +127,7 @@ nav ul li a.activo {
 
 }
 
-
+/*------- FIN NAV ------*/
 
 
 /* ----INICIO INDEX---- */
@@ -278,74 +276,8 @@ main .calaquita,
 
 
 
+
 /* ----FIN INDEX----- */
-
-
-/* ---------INICIO SERVICIOS -----------*/
-h2 {
-  color: orange;
-}
-
-main .contservicios .servicios {
-  color: white;
-  background-color: green;
-  margin: 3%;
-  display: flex;
-  text-align: left;
-
-}
-
-.contservicios {
-  background-color: white;
-  padding: 1%;
-  margin: 2%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.contservicios img {
-  width: 30%;
-  height: auto;
-
-
-}
-
-
-
-.Texto {
-  gap: 10px;
-  padding: 3%;
-
-}
-
-@media (max-width:950px) {
-
-  .servicios {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-
-
-  .contservicios img {
-    width: 50%;
-    height: auto;
-    padding: 2%;
-
-
-  }
-
-
-
-
-
-}
-
-
-/* ----------------FIN SERVICIOS ----------*/
-
-
 
 
 /* ----------------INICIO NOSOTROS ----------*/
@@ -433,8 +365,78 @@ main {
 }
 
 
-------------------
+
 /* ----------------FIN NOSOTROS ----------*/
+
+
+/* ---------INICIO SERVICIOS -----------*/
+h2 {
+  color: orange;
+}
+
+main .contservicios .servicios {
+  color: white;
+  background-color: green;
+  margin: 3%;
+  display: flex;
+  text-align: left;
+
+}
+
+.contservicios {
+  background-color: white;
+  padding: 1%;
+  margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contservicios img {
+  width: 30%;
+  height: auto;
+
+
+}
+
+
+
+.Texto {
+  gap: 10px;
+  padding: 3%;
+
+}
+
+@media (max-width:950px) {
+
+  .servicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+
+  .contservicios img {
+    width: 50%;
+    height: auto;
+    padding: 2%;
+
+
+  }
+
+
+
+
+
+}
+
+
+/* ----------------FIN SERVICIOS ----------*/
+
+
+
+
+
 
 
 
@@ -599,7 +601,7 @@ form .ContBonton {
 
 
 
-/* FOOTER CSS */
+/* -----INICIO FOOTER----- */
 
 footer {
   background-color: green;
@@ -609,7 +611,6 @@ footer {
   padding-bottom: 1%;
   margin-bottom: 1%;
   text-align: center;
-
 }
 
 footer .ContContacto {
@@ -619,7 +620,6 @@ footer .ContContacto {
   background-color: green;
   justify-content: space-between;
   align-items: center;
-
 }
 
 footer .ContRedesSociales a {
@@ -627,7 +627,7 @@ footer .ContRedesSociales a {
   flex-wrap: nowrap;
   background-color: green;
   padding-left: 1em;
-
+  text-decoration: none;
 }
 
 
@@ -681,6 +681,7 @@ footer .DatosProgramador {
   .ContContacto {
     flex-direction: column;
     align-items: center;
+    
   }
 
   .ContRedesSociales {
@@ -707,4 +708,4 @@ footer .DatosProgramador {
 }
 
 
-}
+/* -----INICIO FOOTER----- */
